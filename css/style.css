@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color-1{
+    color: #5b7ff6;
+}
+.color-2{
+    color: #c54f36; 
+}
+.color-3{
+    color: #cbcb41;
+}
+.color-4{
+    color: #22d095;
+}
+.color-5{
+    color: #fb3d3d;
+}
+.color-6{
+    color: #cfcf5b;
+}
+.header-area{
+    position: relative;
+    height:100vh;
+}
+
+.fixed-top{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.bg-overlay{
+    background-color: rgba(0, 0, 0, 0.69);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.header-body {
+    display: table;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+a{
+    color: #212529 !important;
+    text-decoration: none !important;
+}
+ul li a:hover{
+    color: #22d095 !important;
+    transition:ease-in-out .3s;
+}
+.download-btn{
+    border: 2px solid #22d095;
+    text-decoration: none;
+    color: #fff !important;
+    Padding:12px 24px;
+    border-radius:50px;
+}
+
+.download-btn:hover{
+    border: 2px solid #fff;
+    color: #22d095 !important;
+    border-radius:50px;
+    background-color: #fff;
+    transition:ease-in-out .3s;
+}
+
+.Special-text {
+    color: #22d095;
+    font-weight: 600;
+}
+
+.hire-btn a {
+    background: #22d095;
+    color: #fff !important;
+    padding: 12px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.hire-btn a :hover{
+    color: #212529;
+}
+
+.send-message
+a {
+    background: #22d095;
+    color: #fff !important;
+    padding: 12px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.send-message a :hover{
+    color: #212529;
+}
+
+.bg-custom {
+    background-color: #242424 !important;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+    border: 2px solid #22d095 !important;
+}
+
+.k-h{
+    height: 115px !important;
+}
+.social-box i {
+    font-size: 20px;
+    background-color: rgba(241, 241, 241, 0.08);
+    border-radius: 50px;
+    text-align: center;
+    padding: 9px;
+    color: black;
+    margin: 8px;
+    border: 2px solid gray;
+}
+
+.social-box i:hover{
+    border: 2px solid #22d095 !important;
+}
+
+.single-box {
+    font-size: 20px;
+    background-color: rgba(241, 241, 241, 0.08);
+    border-radius: 50px;
+    text-align: center;
+    padding: 9px;
+    color: #6c757d;
+    margin: 8px;
+}
+
+.custom-text{
+    color: #22d095;
+    font-weight: 200;
+}
+
+.h-30{
+    height:250px;
+}
+
+.card{
+    border-radius: 0px !important;
+    border:none !important;
+}
+.icon-box{
+    font-size: 60px;
+    margin-top: 20px;
+}
